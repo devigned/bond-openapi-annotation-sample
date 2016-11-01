@@ -1,0 +1,8 @@
+namespace Examples
+
+struct QoSEventPartC
+{
+    [DataClass("EII")]
+    10: required string UserEmailAddress;
+    20: optional string UserPUID;
+};

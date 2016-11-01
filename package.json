@@ -1,0 +1,38 @@
+{
+  "name": "swagger-bond-schema",
+  "private": true,
+  "author": {
+    "name": "Microsoft Corporation",
+    "email": "david.justice@microsoft.com",
+    "url": ""
+  },
+  "version": "0.1.0",
+  "description": "Tests for Swagger / Bond Specifications",
+  "engines": {
+    "node": ">= 0.8.26"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.githubusercontent.com/Microsoft/dotnet/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "glob": "^5.0.14",
+    "lodash": "^3.10.1",
+    "request": "^2.61.0",
+    "z-schema": "^3.16.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "pretest": "npm install",
+    "test": "mocha"
+  }
+}

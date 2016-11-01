@@ -1,0 +1,67 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "Example IDL",
+        "version": "1.0.0",
+        "title": "Bond Sample"
+    },
+    "host": "microsoft.com",
+    "tags": [
+    ],
+    "schemes": [
+        "http"
+    ],
+    "paths": {
+        "/events": {
+            "post": {
+                "tags": [
+                ],
+                "summary": "Add a new QoS event",
+                "description": "",
+                "operationId": "addEvent",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/xml"
+                ],
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "QoSEventPartC object that needs to be added to the store",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/QoSEventPartC"
+                        }
+                    }
+                ],
+                "responses": {
+                    "405": {
+                        "description": "Invalid input"
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "QoSEventPartC": {
+            "type": "object",
+            "required": [
+                "UserEmailAddress"
+            ],
+            "properties": {
+                "UserEmailAddress": {
+                    "type": "string",
+                    "format": "email",
+                    "x-ms-attributes": [
+                        "Microsoft.Azure.DataClass.EII"
+                    ]
+                },
+                "UserPUID": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
