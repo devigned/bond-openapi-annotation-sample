@@ -3,7 +3,7 @@ This sample shows a snippet of Bond IDL which expresses data annotations convert
 a sample OpenAPI document. The OpenAPI document is then validated against both JSON
 Draft 4 schema and OpenAPI 2.0 schema.
 
-## (Bond Sample IDL)[./sample/bond/sample.bond]
+## [Bond Sample IDL](./sample/bond/sample.bond)
 Bond IDL expressing a data annotation.
 ```
 namespace Examples
@@ -16,7 +16,7 @@ struct QoSEventPartC
 };
 ```
 
-## (OpenAPI Sample)[./sample/swagger/sample.json]
+## [OpenAPI Sample](./sample/swagger/sample.json)
 Swagger document specifying both an endpoint as well as `the data schema for QoSEventPartC. See the JSON schema excerpt below:
 ```json
 ...
@@ -42,7 +42,7 @@ Swagger document specifying both an endpoint as well as `the data schema for QoS
     }
 ```
 
-## (JSON Payload Representing the Schema Above)[./sample/example-payload.json]
+## [JSON Payload Representing the Schema Above](./sample/example-payload.json)
 Sample JSON document which represents the JSON schema above which corresponds to the Bond IDL
 ```json
 {
