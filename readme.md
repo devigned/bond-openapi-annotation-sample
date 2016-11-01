@@ -3,6 +3,10 @@ This sample shows a snippet of Bond IDL which expresses data annotations convert
 a sample OpenAPI document. The OpenAPI document is then validated against both JSON
 Draft 4 schema and OpenAPI 2.0 schema.
 
+The extension to JSON schema is based on [section 5.6 of JSON Schema Draft 4](http://json-schema.org/latest/json-schema-core.html#anchor20)
+> 5.6.  Extending JSON Schema
+> Implementations MAY choose to define additional keywords to JSON Schema. Save for explicit agreement, schema authors SHALL NOT expect these additional keywords to be supported by peer implementations. Implementations SHOULD ignore keywords they do not support.
+
 ## [Bond Sample IDL](./sample/bond/sample.bond)
 Bond IDL expressing a data annotation.
 ```
