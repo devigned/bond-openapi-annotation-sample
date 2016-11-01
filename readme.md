@@ -17,7 +17,7 @@ struct QoSEventPartC
 ```
 
 ## (OpenAPI Sample)[./sample/swagger/sample.json]
-Swagger document specifying both an endpoint as well as the data schema for QoSEventPartC. See the JSON schema excerpt below:
+Swagger document specifying both an endpoint as well as `the data schema for QoSEventPartC. See the JSON schema excerpt below:
 ```json
 ...
 "definitions": {
