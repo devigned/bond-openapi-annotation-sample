@@ -34,9 +34,9 @@ Swagger document specifying both an endpoint as well as `the data schema for QoS
                 "UserEmailAddress": {
                     "type": "string",
                     "format": "email",
-                    "x-ms-attributes": [
-                        "Microsoft.Azure.DataClass.EII"
-                    ]
+                    "x-ms-attributes": {
+                        "Microsoft.Azure.DataClass": "EII"
+                    }
                 },
                 "UserPUID": {
                     "type": "string"
