@@ -55,7 +55,7 @@
                     "type": "string",
                     "format": "email",
                     "x-ms-attributes": {
-                        "Microsoft.Azure.DataClass": "EII"
+                        "Microsoft.DataClass": "Azure.EII"
                     }
                 },
                 "UserPUID": {
